@@ -1,6 +1,6 @@
 # SAVER
 
-SAVER automatically generates safe patches for three kinds of memory-related errors common in C programs: **Memory Leak**, **Use-After-Free**, and **Double-Free**. SAVER works on large C programs up to 320K lines of code while still maintaining the key property of making safe patches. These patches are safe in that if SAVER succeeded in generating patches for a program, applying these patches does not introduce new errors on that program.
+SAVER automatically generates safe patches for three kinds of memory-related errors common in C programs: **Memory Leak**, **Use-After-Free**, and **Double-Free**. SAVER works on large C programs up to 320K lines of code while still maintaining the key property of making safe patches. These patches are safe in that if SAVER succeeded in generating patches for a program, applying these patches does not introduce new errors on that program. For further technical details, please consult our [paper](ICSE20.pdf).
 
 ## Downloads & Installation
 We provide two ways to install SAVER:
