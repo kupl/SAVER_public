@@ -102,12 +102,12 @@ To run SAVER on your C project (or program) and obtain some patches, there are t
 
 ### 1. Capture your program by Infer
 
-Basically, SAVER utilizes Facebook Infer's front-end for patch generation. Infer is not only able to capture a single C source file, it is also capable of capturing a full C project where building tools like `make` is required. To learn more about Infer, please consult this Infer documentation (https://fbinfer.com/docs/analyzing-apps-or-projects.html) as it articulates really well on this topic.
+Basically, SAVER utilizes Facebook Infer's front-end for patch generation. Infer is not only able to capture a single C source file, it is also capable of capturing a full C project where building tools like `make` is required. To learn more about Infer, please consult this Infer documentation (https://fbinfer.com/docs/analyzing-apps-or-projects) as it articulates really well on this topic.
 
 NOTE: If you do not need Infer's memory leak alarms but only the capturing, use the following command. It makes Infer only perform a very simple analysis while capturing the program.
 
 ```BASH
-  infer -g run --check-nullable-only -- [compile command]
+  infer -g run --nullsafe-only -- [compile command]
 ```
 
 ### 2. Prepare error reports
