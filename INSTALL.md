@@ -17,7 +17,7 @@ The second way to install SAVER is to download a binary executable file for Linu
 
 ## 2. Installing a Linux Binary
 
-1. Download the tarball: [saver.tar.gz](https://drive.google.com/open?id=1DP-jZBIIRLBRw2rxK2WujHclo1zvGURn)
+1. Download the tarball: [saver.tar.gz](https://koreaoffice-my.sharepoint.com/:u:/g/personal/seongjoon_korea_ac_kr/EdCX8t7ioXtFtfb4vxNhAZ8B5OctTl7fTPKAh4LI9YvsUA?e=5JGVWv)
 2. Decompress it with `tar xvzf saver.tar.gz`
 3. Add the directory where the bin file is located to the PATH. For example, you may use ones like below:
     * export PATH=".../saver/bin/infer:$PATH"
