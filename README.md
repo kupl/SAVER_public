@@ -4,8 +4,9 @@ SAVER automatically generates safe patches for three kinds of memory-related err
 
 ## Downloads & Installation
 We provide two ways to install SAVER:
-* A VirtualBox image containing all resources to reproduce the main results of our paper: [ICSE20_SAVER_artifacts.tar.gz](https://drive.google.com/open?id=1PHUBRDuzSKxHRIbUYNgdNnPamiSp0Fe1)
-   * Ubuntu ID/PW: saver/saver
+* ~~A VirtualBox image containing all resources to reproduce the main results of our paper: [ICSE20_SAVER_artifacts.tar.gz](https://drive.google.com/open?id=1PHUBRDuzSKxHRIbUYNgdNnPamiSp0Fe1)~~
+* The link for the VirtualBox image is currently borken. Instead, you can download the binary tarball from the link provided. For those who might encounter difficulties running the binary due to environment issues, the [Cerberus](https://github.com/nus-apr/cerberus) platform might be a helpful alternative.
+
 * A full copy of SAVER in its binary executable form: [saver.tar.gz](https://koreaoffice-my.sharepoint.com/:u:/g/personal/seongjoon_korea_ac_kr/EdCX8t7ioXtFtfb4vxNhAZ8B5OctTl7fTPKAh4LI9YvsUA?e=5JGVWv)
 
 Please see [INSTALL.md](./INSTALL.md) for full installation instructions and basic usage of SAVER.
